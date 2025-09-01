@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body class="bg-gray-950 text-gray-100 font-sans">
@@ -36,7 +38,7 @@
   <!-- HERO -->
   <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-6 bg-[url(https://i.pinimg.com/736x/ae/4d/15/ae4d15b74a7c6d83859bb63a2701aba7.jpg)] bg-cover bg-contain">
     <h2 class="text-4xl md:text-6xl font-bold">Hi, I'm <span class="text-blue-400">Ossom David </span></h2>
-    <p class="mt-4 text-lg md:text-xl text-gray-400">Frontend Developer | Designer | Freelancer</p>
+    <p class="mt-4 text-lg md:text-xl text-gray-400">Frontend Developer | Web Designer | Freelancer</p>
     <a href="#projects" class="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg text-white">View My Work</a>
   </section>
 
@@ -52,17 +54,17 @@
     </div>
   </section>
 
- <!-- SKILLS -->
+  <!-- SKILLS -->
   <section id="skills" class="py-20 bg-gray-900">
     <div class="container mx-auto px-6 text-center">
       <h2 class="text-3xl font-bold mb-8">Skills</h2>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-        <div class="p-4 bg-gray-800 rounded-lg">HTML</div>
-        <div class="p-4 bg-gray-800 rounded-lg">CSS</div>
-        <div class="p-4 bg-gray-800 rounded-lg">JavaScript</div>
-        <div class="p-4 bg-gray-800 rounded-lg">Tailwind</div>
-        <div class="p-4 bg-gray-800 rounded-lg">React</div>
-        <div class="p-4 bg-gray-800 rounded-lg">Git</div>
+        <div class="p-4 bg-gray-800 rounded-lg border-l-3 border-gray-100">HTML</div>
+        <div class="p-4 bg-gray-800 rounded-lg border-l-3 border-gray-100">CSS</div>
+        <div class="p-4 bg-gray-800 rounded-lg border-l-3 border-gray-100">JavaScript</div>
+        <div class="p-4 bg-gray-800 rounded-lg border-l-3 border-gray-100">Tailwind</div>
+        <div class="p-4 bg-gray-800 rounded-lg border-l-3 border-gray-100">React</div>
+        <div class="p-4 bg-gray-800 rounded-lg border-l-3 border-gray-100">Git</div>
       </div>
     </div>
   </section>
@@ -71,18 +73,21 @@
   <section id="projects" class="py-20 container mx-auto px-6">
     <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
     <div class="grid md:grid-cols-3 gap-8">
+      <!-- First Project -->
       <div class="bg-gray-800 rounded-lg p-5 hover:shadow-lg transition">
         <img src="car web.png" class="rounded-md mb-4"></img>
         <h3 class="text-xl font-semibold">Project 1</h3>
         <p class="text-gray-400 mt-2">A non-responsive website built with Tailwind CSS.</p>
-        <button class="bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition px-3 py-2">View Project</button>
+        <button  onclick="alert('Sorry, this website is not responsive. This page is to be viewed on a laptop or desktop.')" class="bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition px-3 py-2"><a href="https://car-shop-virid.vercel.app/"> View Project</a></button>
       </div>
+      <!-- Second Project -->
       <div class="bg-gray-800 rounded-lg p-5 hover:shadow-lg transition">
         <img src="food web.png"  class="rounded-md mb-4"></img>
         <h3 class="text-xl font-semibold">Project 2</h3>
         <p class="text-gray-400 mt-2">A food website built with HTML and CSS.</p>
         <button onclick="alert('Sorry, this website is not responsive. This page is to be viewed on a laptop or desktop.')" class="bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition px-3 py-2"><a href="https://food-web-five-orpin.vercel.app/"> View Project</a></button>
       </div>
+      <!-- Third Project -->
       <div class="bg-gray-800 rounded-lg p-5 hover:shadow-lg transition">
         <img src="dentacare web.png" class="rounded-md mb-4"></img>
         <h3 class="text-xl font-semibold">Project 3</h3>
@@ -92,18 +97,22 @@
     </div>
 
     <!-- Hidden Projects -->
+     
+     <!-- Fourth Project -->
     <div class="grid md:grid-cols-3 gap-8">
       <div class="mt-8 bg-white dark:bg-gray-800 rounded-xl shadow p-6 hidden extra-project">
         <img src="coffee web.png" class="rounded-md mb-4"></img>
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Project 4</h3>
         <p class="text-gray-600 dark:text-gray-300">A responsive coffee website created with Tailwind CSS.</p>
-        <button class="bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition px-3 py-2">View Project</button>
+        <button onclick="alert('Still under construction please')" class="bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition px-3 py-2"><a href="#"> View Project</a></button>
       </div>
+      <!-- Fifth Project -->
       <div class="mt-8 bg-white dark:bg-gray-800 rounded-xl shadow p-6 hidden extra-project">
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Project 5</h3>
         <p class="text-gray-600 dark:text-gray-300">Description of project 5...</p>
         <button class="bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition px-3 py-2">View Project</button>
       </div>
+      <!-- Sixth Project -->
       <div class="mt-8 bg-white dark:bg-gray-800 rounded-xl shadow p-6 hidden extra-project">
         <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Project 6</h3>
         <p class="text-gray-600 dark:text-gray-300">Description of project 6...</p>
@@ -116,6 +125,7 @@
       Click to View More
     </button>
   </section>
+
   <!-- CONTACT -->
   <section id="contact" class="py-20 bg-gray-900">
     <div class="container mx-auto px-6 text-center">
@@ -173,10 +183,3 @@
     
 </body>
 </html>
-
-
-
-
-
-
-
